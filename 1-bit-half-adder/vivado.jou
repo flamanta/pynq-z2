@@ -1,0 +1,78 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Sep 18 19:17:35 2020
+# Process ID: 7160
+# Current directory: C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11232 C:\Users\WeiMin\Documents\GitHub\pynq-z2\1-bit-half-adder\1-bit-half-adder.xpr
+# Log file: C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/vivado.log
+# Journal file: C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.xpr
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/sources_1/new/1-bit-half-adder.v -to_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/sources_1/new/z2top.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/constrs_1/new/1-bit-half-adder.xdc -to_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/constrs_1/new/z2top.xdc -filesets [get_filesets *]
+update_files -from_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/constrs_1/new/half-adder.xdc -to_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/constrs_1/new/1-bit-half-adder.xdc -filesets [get_filesets *]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+update_files -from_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/sources_1/new/half-adder.v -to_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/sources_1/new/1-bit-half-adder.v -filesets [get_filesets *]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+update_files -from_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/constrs_1/new/half_adder.xdc -to_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/constrs_1/new/half-adder.xdc -filesets [get_filesets *]
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+update_files -from_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/sources_1/new/half_adder.v -to_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-half-adder/1-bit-half-adder.srcs/sources_1/new/half-adder.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_project C:/Users/WeiMin/Documents/GitHub/fpga_labs_sp19/Lab1mod/lab1mod.xpr
+update_compile_order -fileset sources_1
+save_project_as 1-bit-full-adder C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-full-adder -force
+current_project 1-bit-half-adder
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+current_project 1-bit-full-adder
+update_files -from_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-full-adder/1-bit-full-adder.srcs/sources_1/new/full_adder.v -to_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-full-adder/1-bit-full-adder.srcs/sources_1/new/z2top.v -filesets [get_filesets *]
+update_files -from_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-full-adder/1-bit-full-adder.srcs/constrs_1/new/full_adder.xdc -to_files C:/Users/WeiMin/Documents/GitHub/pynq-z2/1-bit-full-adder/1-bit-full-adder.srcs/constrs_1/new/z2top.xdc -filesets [get_filesets *]
+current_project 1-bit-half-adder
+open_run impl_1
+current_project 1-bit-full-adder
+current_project 1-bit-half-adder
+close_project
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
